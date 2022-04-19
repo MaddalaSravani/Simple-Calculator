@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Simple Calculator</title>
+<link rel="stylesheet"  href="style.css">
+<h1 align="center">CALCULATOR</h1>
+
+</head>
+<body>
+
+    <div id="calc">
+        <div id="keyboard">
+            <input type="text" id="inputText" placeholder="0">
+            
+            <button class="operator"   onclick="clearall()">C</button>
+            <button class="operator"   onclick="cut()">CE</button>
+            <button class="operator"   onclick="calculate('%')">%</button>
+            <button class="operator"   onclick="calculate('+')">+</button>
+            <button class="nums"       onclick="calculate(7)">7</button>
+            <button class="nums"       onclick="calculate(8)">8</button>
+            <button class="nums"       onclick="calculate(9)">9</button>
+            <button class="operator"   onclick="calculate('-')">-</button>
+            <button class="nums"       onclick="calculate(4)">4</button>
+            <button class="nums"       onclick="calculate(5)">5</button>
+            <button class="nums"       onclick="calculate(6)">6</button>
+            <button class="operator"   onclick="calculate('*')">x</button>
+            <button class="nums"       onclick="calculate(1)">1</button>
+            <button class="nums"       onclick="calculate(2)">2</button>
+            <button class="nums"       onclick="calculate(3)">3</button>
+            <button class="operator"   onclick="calculate('/')" >/</button>
+            <button class="nums"       onclick="calculate('00')">00</button>
+            <button class="nums"       onclick="calculate(0)">0</button>
+            <button class="nums"       onclick="calculate('.')">.</button>
+            <button class="operator"   onclick="Result()">=</button>
+        </div>
+    </div>
+
+<script src="script.js" defer></script>
+</body>
+</html>

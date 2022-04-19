@@ -1,0 +1,57 @@
+body{
+    font-family:sans-serif;
+    background-color: rgb(218, 148, 209);
+    text-align: center;
+}
+
+ 
+
+#calc{
+    width: 280px;
+    height: 330px;
+    align-self: center;
+    background-color: aliceblue;
+    margin-left: 400px;
+    margin-top: 75px;
+    position: relative;
+    border-radius: 5px;
+    border-style:ridge;
+}
+
+#inputText
+{
+    width: 270px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background-color: rgb(35, 200, 32);
+    text-align: right;
+    font-size: 30px;
+    border-radius: 50px;
+    
+}
+
+ 
+ 
+#keyboard
+{
+    height: 335px;
+    box-sizing: border-box;
+    box-shadow: inset 3px 3px 6px;
+}
+
+.operator, .nums
+{
+    width: 40px;
+    height: 30px;
+    margin: 10px 15px;
+    float: left;
+    border-radius: 70%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    background-color:darkkhaki;
+}
